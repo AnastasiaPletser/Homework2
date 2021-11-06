@@ -1,0 +1,53 @@
+.world {
+    max-width: 1242px;
+    height: 534px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 243px;
+    padding: 0 avto;
+ 
+ }
+ .world__img {
+ max-width: 659px;
+ width: 50%;
+ flex-shrink: 0; /*отвечает за то, как будет уменьшаться наш элемент*/
+ margin-top: 243px;
+ }
+ .world__inner {
+    margin-left: 102px;
+    width: 481px;
+ }
+ .world__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 0 20px;
+ }
+ .world__description {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color:#7D7987;
+    margin-bottom: 33px;
+    padding: 1px; 
+ }
+ .world__description p{
+    margin: 0 0 20px;
+ }
+ .world__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 48px;
+    max-width: 100%;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+ }
