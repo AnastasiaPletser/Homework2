@@ -1,0 +1,50 @@
+.heading {
+    max-width: 1330px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 243px;
+ }
+ .heading__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;  /* межстрочный интервал*/
+    color:  #202336;
+    margin: 0 0 74px;
+ }
+ .heading__descriptions {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px; 
+    color: #202336;
+   margin-bottom: 37px;
+    padding: 1px; 
+ }
+ .heading__descriptions p {
+    margin: 0 0 37px;
+ }
+ /*.heading__inner { 
+    margin-right: 244px;
+ }*/
+ .heading__img {
+    max-width: 687px;
+    width: 50%;
+    flex-shrink: 0; /*отвечает за то, как будет уменьшаться наш элемент*/
+    margin-top: 109px;
+    
+ }
+ .heading__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    height: 52px;
+    max-width: 100%;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+ }
