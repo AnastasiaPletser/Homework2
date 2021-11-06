@@ -1,0 +1,53 @@
+.Guides-reverse {
+    max-width: 1200px;
+    height: 550px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 232px;
+    padding: 0 avto;
+ }
+ .Guides-reverse__img {
+ width: 599px;
+ width: 50%;
+ flex-shrink: 0; /*отвечает за то, как будет уменьшаться наш элемент*/
+ margin-top: 231px;
+ }
+ .Guides-reverse__inner {
+    margin-right: 80px;
+    width: 481px; 
+ }
+ .Guides-reverse__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 0 20px;
+ }
+ .Guides-reverse__description {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    color:#7D7987;
+    margin-bottom: 33px;
+    padding: 1px; 
+ }
+ .Guides-reverse__description p{
+    margin: 0 0 20px; 
+ }
+ .Guides-reverse__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 48px;
+    max-width: 100%;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+ }
